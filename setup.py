@@ -23,3 +23,5 @@ setup(
     packages=find_packages()
 )
 
+## after creating virtual env run - pip install -e . 
+## this command creates eggs for folder structure

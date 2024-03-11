@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Data Ingestion Initiated")
         try:
-            data = pd.read_csv("https://raw.githubusercontent.com/sunnysavita10/fsdsmendtoend/main/notebooks/data/gemstone.csv")
+            data = pd.read_csv("https://raw.githubusercontent.com/diljyotsingh019/Dataset-for-mlops/main/train.csv")
             logging.info("Reading a data frame")
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
             data.to_csv(self.ingestion_config.raw_data_path,index=False)
@@ -46,10 +46,10 @@ class DataIngestion:
 
 
         except Exception as e:
-            logging.info()
+            logging.info("EXCEPTION")
             raise custom_exception(e, sys)
     
-    if __name__ == "__main__":
-        obj = DataIngestion()
+if __name__ == "__main__":
+    obj = DataIngestion()
 
-        obj.initiate_data_ingestion()
+    obj.initiate_data_ingestion()
