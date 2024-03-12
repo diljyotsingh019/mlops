@@ -3,3 +3,5 @@ mlops/
 playground-series-s3e8.zip
 playground-series-s3e8/
 DimondPricePrediction.egg-info/
+logs/
+artifacts/
