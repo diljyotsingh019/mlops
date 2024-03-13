@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/diljy/Desktop/MLops%20-%20Ineuron/mlruns/0/fa54590973924587880491e9025e3bb7/artifacts
+end_time: 1710314190344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa54590973924587880491e9025e3bb7
+run_name: learned-wasp-295
+run_uuid: fa54590973924587880491e9025e3bb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710314188099
+status: 3
+tags: []
+user_id: DILJYOT
